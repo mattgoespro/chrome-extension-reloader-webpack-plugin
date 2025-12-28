@@ -1,0 +1,71 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "debug.console.fontSize": 12,
+  "debug.console.lineHeight": -0.1,
+  "debug.toolBarLocation": "commandCenter",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.enable": true,
+  "eslint.format.enable": false,
+  "eslint.probe": ["typescript", "javascript"],
+  "eslint.useFlatConfig": true,
+  "eslint.validate": ["javascript", "typescript"],
+  "explorer.confirmDragAndDrop": false,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.git/**": true,
+    "**/node_modules/**": true
+  },
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/dist/**": true,
+    "**/node_modules/**": true,
+    "**/out/**": true,
+    "**/package-lock.json": true
+  },
+  "npm-outdated.majorUpdateProtection": false,
+  "prettier.requireConfig": true,
+  "problems.showCurrentInStatus": true,
+  "search.exclude": {
+    "**/*.json": true,
+    "**/.vscode/**": true,
+    "**/dist/**": true,
+    "**/node_modules/**": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "*.[m]js": true
+  },
+  "search.quickAccess.preserveInput": true,
+  "search.smartCase": true,
+  "terminal.integrated.automationProfile.windows": {
+    "args": ["-l"],
+    "path": "C:\\Program Files\\Git\\usr\\bin\\bash.exe"
+  },
+  "terminal.integrated.defaultProfile.windows": "bash-node",
+  "terminal.integrated.env.windows": {
+    "PATH": "${workspaceFolder}/node_modules/.bin;${env:PATH}"
+  },
+  "terminal.integrated.fontFamily": "Ubuntu Mono",
+  "terminal.integrated.profiles.windows": {
+    "bash-node": {
+      "color": "terminal.ansiCyan",
+      "icon": "terminal-linux",
+      "overrideName": true,
+      "source": "Git Bash"
+    }
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}

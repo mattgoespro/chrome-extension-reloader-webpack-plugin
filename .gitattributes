@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+*.m3u8 text eol=lf
+
+*.exe binary
+*.png binary
