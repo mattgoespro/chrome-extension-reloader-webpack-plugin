@@ -8,7 +8,7 @@
     "baseUrl": ".",
     "lib": ["esnext", "dom"],
     "types": ["node"],
-    "outDir": "out",
+    "outDir": "dist",
     "sourceMap": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
