@@ -1,9 +1,10 @@
 {
-  "name": "chrome-extension-reloader-webpack-plugin",
+  "name": "chrome-ext-reloader-webpack-plugin",
   "description": "A Chrome extension live reloader plugin for webpack.",
   "author": "mattgoespro",
   "version": "0.0.1-dev",
   "type": "module",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsx scripts/build.ts"
   },
